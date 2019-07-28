@@ -7,10 +7,7 @@ class Blackjack(Game):
     def __init__(self):
         super().__init__()
         print("Created Blackjack")
-        #self.cards = Cards()
-        #print("as: " + str(self.cards.get_points("q")))
-        #c = Card("leaves", "A")
-        #c.print_card()
+
         player = Player()
         print("Points: " + str(player.get_points()))
         player.print_cards()
